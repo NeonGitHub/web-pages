@@ -8,7 +8,7 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<link rel="icon" href="img/icon2.jp">
+		<link rel="icon" href="img/icon2.jpg">
 
 		<title>智能水族箱-新闻资讯</title>
 
@@ -52,10 +52,18 @@
 							<a href="#">首页</a>
 						</li>
 						<li>
-							<a href="#about">个人主页</a>
+							<a href="userhome.html">个人主页</a>
 						</li>
-						<li class="active">
-							<a href="#contact">案例</a>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">案例功能 <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="caseList.html">查看案例</a></li>
+								<li><a href="#">案例分析</a></li>
+								<li><a href="caseAdd.html">添加案例</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="newslist.html">社交资讯</a>
 						</li>
 					</ul>
 				</div>
@@ -82,9 +90,9 @@
 								</ul>
 							</div>
 
-							<form action="/home.html" method="post">
+							<form action="caseAnalysis2.html" method="post">
 								<div class="col-md-12"><h3>填写基本情况</h3></div>
-								
+
 								<div class="myBselect">
 									<div class="row">
 										<div class="col-md-3 col-md-offset-3"><span>鱼的种类：</span></div>
@@ -213,12 +221,11 @@
 						</div>
 					</div>
 					<div class="list-group">
-						<a href="#" class="list-group-item text-center">个人主页</a>
+						<a href="userhome.html" class="list-group-item text-center">个人主页</a>
 						<a href="#" class="list-group-item text-center">历史数据</a>
-						<a href="#" class="list-group-item text-center active">案例分析</a>
-						<a href="#" class="list-group-item text-center">查看案例</a>
-						<a href="#" class="list-group-item text-center">添加案例</a>
-
+						<a href="caseAnalysis.html" class="list-group-item text-center active">案例分析</a>
+						<a href="caseList.html" class="list-group-item text-center">查看案例</a>
+						<a href="caseAdd.html" class="list-group-item text-center">添加案例</a>
 					</div>
 				</div>
 
